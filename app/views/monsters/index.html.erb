@@ -1,1 +1,3 @@
-<%# Update me %><%= @monsters.inspect %>
+<% @monsters.each do |m| %>
+    <p><%= m.name %></p>
+<% end %>

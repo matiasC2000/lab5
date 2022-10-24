@@ -1,0 +1,8 @@
+<%= form_with model: monster do |m| %>
+    <%= m.text_field :name, placeholder: "Nombre ", class: "form-control mb-2" %>
+    <%= m.text_area :description, placeholder: "Descripción ", class: "form-control mb-2" %>
+    <%= m.text_field :phone, placeholder: "Telefono ", class: "form-control mb-2" %>
+
+    <%= f.submit "Crear", class: "btn btn-primary mb-2" %>
+  <% end %>
+  
